@@ -1,0 +1,81 @@
+Questions Covered
+Two Sum
+Valid Parentheses
+Palindrome Check
+FizzBuzz
+Merge Two Sorted Arrays
+Remove Duplicates from Array
+First Non-Repeating Character
+Reverse a String
+Anagram Check
+Flatten Nested Array
+Count Occurrences of Array Elements
+Find Maximum and Minimum in an Array
+
+.....................................
+Key Concepts Used
+Arrays & Strings
+Hash Map (Objects)
+Stack
+Loops
+Two-Pointer Technique
+Set
+Recursion
+............................
+Quick Notes for Each Question
+.............................
+1. Two Sum
+Use a hash map to store numbers and indices.
+Check if target - currentNumber exists.
+Efficient solution in O(n) time.
+
+2. Valid Parentheses
+Use a stack to track opening brackets.
+Match each closing bracket with the last opened one.
+Ensures correct and balanced parentheses.
+
+3. Palindrome Check
+Reverse the string and compare it with the original.
+If both are same, the string is a palindrome.
+
+4. FizzBuzz
+Loop from 1 to n.
+Print:
+“Fizz” if divisible by 3
+“Buzz” if divisible by 5
+“FizzBuzz” if divisible by both
+
+5. Merge Two Sorted Arrays
+Use two pointers to compare both arrays.
+Add the smaller value to the result.
+Produces a merged sorted array.
+
+6. Remove Duplicates
+Use a Set to store unique values.
+Convert the set back to an array.
+
+7. First Non-Repeating Character
+Count occurrences of each character using an object.
+Return the index of the first character with count 1.
+
+8. Reverse a String
+Split the string into characters.
+Reverse and join them back.
+
+9. Anagram Check
+Two strings are anagrams if they have:
+Same characters
+Same frequency
+Use a character count object to compare.
+
+10. Flatten Nested Array
+Extract elements from nested arrays into a single array.
+Use loops or recursion to flatten.
+
+11. Count Occurrences of Array Elements
+Loop through array and store element counts in an object.
+Return the object with key-value pairs.
+
+12. Find Maximum and Minimum
+Loop through array once.
+Track the highest and lowest values manually.
