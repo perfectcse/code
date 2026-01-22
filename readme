@@ -1,4 +1,4 @@
-Questions Covered
+Phase 1 – Core JavaScript Basics
 Two Sum
 Valid Parentheses
 Palindrome Check
@@ -11,71 +11,113 @@ Anagram Check
 Flatten Nested Array
 Count Occurrences of Array Elements
 Find Maximum and Minimum in an Array
-
 .....................................
-Key Concepts Used
-Arrays & Strings
-Hash Map (Objects)
-Stack
-Loops
-Two-Pointer Technique
-Set
-Recursion
-............................
-Quick Notes for Each Question
-.............................
+Phase 2 – Logic + Real-World Problems
+.....................................
+Check if an Array is Sorted
+Intersection of Two Arrays
+Sum of All Elements in an Array
+Character Frequency in a String
+Find Longest Word in a String
+Group Array of Objects by Key
+.....................................
+🧠 Quick Interview Notes (Important)
 1. Two Sum
-Use a hash map to store numbers and indices.
-Check if target - currentNumber exists.
-Efficient solution in O(n) time.
+Use a hash map
+Store values to find complements
+Optimized solution → O(n)
 
 2. Valid Parentheses
-Use a stack to track opening brackets.
-Match each closing bracket with the last opened one.
-Ensures correct and balanced parentheses.
+Use a stack
+Opening brackets pushed
+Closing brackets must match last opened
 
 3. Palindrome Check
-Reverse the string and compare it with the original.
-If both are same, the string is a palindrome.
+String should read the same forward and backward
+Compare original and reversed string
 
 4. FizzBuzz
-Loop from 1 to n.
-Print:
-“Fizz” if divisible by 3
-“Buzz” if divisible by 5
-“FizzBuzz” if divisible by both
+Loop from 1 to n
+Divisible by 3 → Fizz
+Divisible by 5 → Buzz
+Both → FizzBuzz
 
 5. Merge Two Sorted Arrays
-Use two pointers to compare both arrays.
-Add the smaller value to the result.
-Produces a merged sorted array.
+Use two pointers
+Compare elements from both arrays
+Result remains sorted
+Time → O(n + m)
 
 6. Remove Duplicates
-Use a Set to store unique values.
-Convert the set back to an array.
+Use Set
+Set stores only unique values
 
 7. First Non-Repeating Character
-Count occurrences of each character using an object.
-Return the index of the first character with count 1.
+Count character frequencies
+
+Return index of first character with count = 1
 
 8. Reverse a String
-Split the string into characters.
-Reverse and join them back.
+Convert string to characters
+Reverse order
+Join back to string
 
 9. Anagram Check
-Two strings are anagrams if they have:
-Same characters
-Same frequency
-Use a character count object to compare.
+Same length required
+Same characters with same frequency
+Order does not matter
 
 10. Flatten Nested Array
-Extract elements from nested arrays into a single array.
-Use loops or recursion to flatten.
+Extract elements from nested arrays
+Convert into a single flat array
+Loop or recursion can be used
+11. Count Occurrences in Array
 
-11. Count Occurrences of Array Elements
-Loop through array and store element counts in an object.
-Return the object with key-value pairs.
+Use object as counter
+Element → key
+Frequency → value
 
-12. Find Maximum and Minimum
-Loop through array once.
-Track the highest and lowest values manually.
+12. Find Max and Min
+Initialize both with first element
+Compare while looping
+Track largest and smallest
+
+13. Check if Array Is Sorted
+Compare each element with next
+If any element is greater → not sorted
+Otherwise sorted
+
+14. Intersection of Two Arrays
+Count elements of one array
+Check matches in second array
+Handle duplicates correctly
+
+15. Sum of Array Elements
+Initialize sum = 0
+Add each element
+Empty array → return 0
+
+16. Character Frequency in String
+Loop through string
+Count each character
+Uppercase and lowercase treated differently
+
+17. Find Longest Word
+Split string into words
+Compare word lengths
+Return the longest word
+
+18. Group Array of Objects by Key
+Use object for grouping
+Key value decides the group
+Store objects in arrays under each key
+.......................................
+🎯 Core Concepts Practiced
+Arrays & Strings
+Objects (Hash Maps)
+Stack
+Loops & Conditions
+Two-Pointer Technique
+Set
+Frequency Counting
+Grouping Data
